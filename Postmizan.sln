@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postmizan", "Postmizan.csproj", "{04B39053-F306-48D5-86AD-09DCE462BCB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04B39053-F306-48D5-86AD-09DCE462BCB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04B39053-F306-48D5-86AD-09DCE462BCB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04B39053-F306-48D5-86AD-09DCE462BCB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04B39053-F306-48D5-86AD-09DCE462BCB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76680B45-01A3-4341-A1CD-7266ED9A7F7F}
+	EndGlobalSection
+EndGlobal
