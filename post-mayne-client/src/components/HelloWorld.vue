@@ -11,9 +11,10 @@
     const count = ref(0)
 
     let formValues = ref(''
-       
+
 
     )
+
 
     let getTest = async () => {
         await axios.get('http://localhost:5164/test')
@@ -26,10 +27,10 @@
     getTest()
 
     //TODO: creat a from that takes input (http endpoint) and returns the service code and the response body
-    const sendRequest = () => {
-        
+    const getRequest = () => {
+
         log(formValues.value)
-       
+
         axios.get(formValues.value)
             .then((response) => {
                 log(response.headers)
@@ -38,13 +39,25 @@
         formValues.value = ''
     }
     console.log(formValues.value.getReq)
+
+    const postRequest = () => {
+        axios.post('http://localhost:5164/post')
+            .then((response) => {
+                formValues.value = `Data: ${response.data} Status: ${response.statusText} ${response.status} Headers: ${response.headers}`
+            })
+    }
+
 </script>
 
 <template>
     <h1>{{ msg }}</h1>
     <h1>{{ test }} </h1>
-    <form @submit.prevent="sendRequest" action="/" method="post">
+    <form @submit.prevent="getRequest" action="/" method="post">
         <label>GetRequest</label>
+        <input v-model="formValues" name="name" />
+    </form>
+    <form @submit.prevent="postRequest" action="/" method="post">
+        <label>PostRequest</label>
         <input v-model="formValues" name="name" />
     </form>
     <h1>{{formValues }}</h1>
