@@ -32,7 +32,8 @@
        
         axios.get(formValues.value)
             .then((response) => {
-                formValues.value = response.data
+                log(response.headers)
+                formValues.value = `Data: ${response.data} Status: ${response.statusText} ${response.status} Headers: ${response.headers}`
             })
         formValues.value = ''
     }
@@ -46,7 +47,7 @@
         <label>GetRequest</label>
         <input v-model="formValues" name="name" />
     </form>
-    <h1>Response Data: {{formValues }}</h1>
+    <h1>{{formValues }}</h1>
 </template>
 
 <style scoped>
