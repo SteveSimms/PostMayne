@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:3000/",
+"LaunchCommand": "npx vite ",
+"WorkingDirectory": "C:\\Users\\simms\\source\\repos\\Postmizan\\post-mayne-client",
+"MaxTimeoutInSeconds": "120"
+}
+}

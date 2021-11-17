@@ -4,6 +4,15 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <!--below 3 lines required to run spa and .net on the same domain-->
+	  <SpaProxyServerUrl>http://localhost:3000/</SpaProxyServerUrl>
+	  <SpaRoot>post-mayne-client</SpaRoot>
+	  <SpaProxyLaunchCommand>npx vite </SpaProxyLaunchCommand>
   </PropertyGroup>
+
+  <ItemGroup>
+	  <!--Package required to run spa(Vue via vite on the same domain)-->
+    <PackageReference Include="Microsoft.AspNetCore.SpaProxy" Version="6.0.0" />
+  </ItemGroup>
 
 </Project>

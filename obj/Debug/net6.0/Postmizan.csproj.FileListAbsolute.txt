@@ -22,3 +22,7 @@ C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\Postmizan.pdb
 C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\Postmizan.genruntimeconfig.cache
 C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\post-mayne-client\package-lock.json
 C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\post-mayne-client\package.json
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\spa.proxy.json
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
+C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\spa.proxy.json
+C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\Postmizan.csproj.CopyComplete

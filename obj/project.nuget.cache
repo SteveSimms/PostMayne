@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3SUqEy209x2+5NpErAjrLclcvawM3EKyjhRTa4mH32WWBBGc7ofmfc/yBLhkanySEX/pHn+DFoHhsarT5E55uQ==",
+  "dgSpecHash": "f/4u8sPN8I122d7v8HhtvDEb/KpyrnFbVoapPVAOS0Y95xLtOwDDcM/S/gO/6+E+drYfZBlHXGcMINH5fEuYPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\simms\\source\\repos\\Postmizan\\Postmizan.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\simms\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.0\\microsoft.aspnetcore.spaproxy.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
