@@ -26,3 +26,10 @@ C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\spa.proxy.json
 C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.AspNetCore.SpaProxy.dll
 C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\spa.proxy.json
 C:\Users\simms\source\repos\Postmizan\obj\Debug\net6.0\Postmizan.csproj.CopyComplete
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Humanizer.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Npgsql.dll
+C:\Users\simms\source\repos\Postmizan\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
