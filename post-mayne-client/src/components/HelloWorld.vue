@@ -10,10 +10,10 @@
 
     const count = ref(0)
 
-    let formValues = ref(''
+    let formValues = ref('')
 
 
-    )
+   
 
 
     let getTest = async () => {
@@ -47,24 +47,44 @@
             })
     }
 
+
+
+    const postJson = () => {
+        axios.post('http://localhost:5164/api/jsondatas')
+            .then((response) => {
+                formValues.value = `Data: ${response.data} Status: ${response.statusText} ${response.status} Headers: ${response.headers}`
+            })
+    }
 </script>
 
 <template>
     <h1>{{ msg }}</h1>
     <h1>{{ test }} </h1>
-    <form @submit.prevent="getRequest" action="/" method="post">
+    <form @submit.prevent="getRequest" action="/" method="get">
         <label>GetRequest</label>
         <input v-model="formValues" name="name" />
     </form>
-    <form @submit.prevent="postRequest" action="/" method="post">
+    <form @submit.prevent="postJson" action="/" method="post">
         <label>PostRequest</label>
-        <input v-model="formValues" name="name" />
+        <textarea v-model="formValues" name="name">
+      
+      
+
+        </textarea>
+        <button >Submit</button>
     </form>
-    <h1>{{formValues }}</h1>
+    <code>
+        {{ formValues }}
+    </code>
+
 </template>
 
 <style scoped>
     a {
         color: #42b983;
+    }
+    textarea {
+        width: 80%;
+        height: 40vh;
     }
 </style>

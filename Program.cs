@@ -18,7 +18,10 @@ app.MapGet("/get", () => "Status 200 OK");
 app.MapPost("/post", () => "I'm Posted");
 //Todo create a db to store the test posts and puts will have to make a GET to post and post to a GET
 
-app.MapPost("/post", async (JsonContext db, JsonData jsondata) =>
+
+var getJson = app.MapGet("/api/jsondatas", async(JsonContext db) => await db.JsonDatas.ToListAsync());
+
+var postJson = app.MapPost("/api/jsondatas", async (JsonContext db, JsonData jsondata) =>
 {
     await db.JsonDatas.AddAsync(jsondata);
     await db.SaveChangesAsync();
